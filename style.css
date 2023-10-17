@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.img {
+  margin: 10pxpx;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.easy,
+.implement {
+  display: flex;
+  margin: 50px;
+}
+.implement {
+  display: flex;
+  flex-direction: column;
+  column-gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.header,
+.text {
+  flex-direction: column;
+  row-gap: 10px;
+}
+.container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.image {
+  display: flex;
+}
+
+.simple {
+  flex-direction: column;
+  display: flex;
+  column-gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+
